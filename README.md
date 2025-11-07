@@ -73,6 +73,7 @@ Mock-Ecom-Cart/
 Create a file with name = .env within the backend folder
 add the following in that file :-
 MONGO_URI=mongodb+srv://testuser:testuser@cluster0.bq8wncm.mongodb.net/?appName=Cluster0
+
 PORT=3000
 
 ### 1️⃣ Clone the repository
