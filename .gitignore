@@ -1,0 +1,107 @@
+# ===========================================
+# ✅ Node & Backend
+# ===========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.DS_Store
+coverage/
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+lib-cov/
+dist/
+build/
+out/
+.next/
+.vercel/
+.cache/
+.tmp/
+temp/
+
+# ===========================================
+# ✅ React Frontend
+# ===========================================
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.test
+frontend/.env.production
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ===========================================
+# ✅ Backend Specific
+# ===========================================
+backend/node_modules/
+backend/.env
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/logs/
+backend/uploads/
+
+# ===========================================
+# ✅ Database & Storage
+# ===========================================
+*.mongo
+dump/
+data/
+db_backup/
+*.sqlite
+*.sqlite3
+
+# ===========================================
+# ✅ IDE & Editor Stuff
+# ===========================================
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# ===========================================
+# ✅ OS Files
+# ===========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# ===========================================
+# ✅ Misc
+# ===========================================
+*.tgz
+*.gz
+*.zip
+*.rar
+*.7z
+*.bak
+.vscode-test/
+.purgecss/
+
+# ===========================================
+# ✅ Deployment
+# ===========================================
+.vercel
+.netlify
+.firebase
+.now
+serverless.yml
+
